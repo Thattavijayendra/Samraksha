@@ -4,13 +4,13 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-  // Replace with your Firebase config
-  apiKey: "your-api-key",
-  authDomain: "samraksha-app.firebaseapp.com",
-  projectId: "samraksha-app",
-  storageBucket: "samraksha-app.appspot.com",
-  messagingSenderId: "123456789",
-  appId: "your-app-id"
+  // Demo configuration - replace with your actual Firebase config
+  apiKey: "AIzaSyDemo_Replace_With_Your_Actual_API_Key",
+  authDomain: "your-project-id.firebaseapp.com",
+  projectId: "your-project-id",
+  storageBucket: "your-project-id.appspot.com",
+  messagingSenderId: "123456789012",
+  appId: "1:123456789012:web:abcdef123456789012345"
 };
 
 const app = initializeApp(firebaseConfig);
