@@ -257,11 +257,11 @@ const Dashboard: React.FC = () => {
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Quick Overview</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="text-center">
-            <div className="text-2xl font-bold text-teal-600">0</div>
+            <div className="text-2xl font-bold text-teal-600">10</div>
             <div className="text-sm text-gray-600">Prescriptions Today</div>
           </div>
           <div className="text-center">
-            <div className="text-2xl font-bold text-blue-600">0</div>
+            <div className="text-2xl font-bold text-blue-600">30</div>
             <div className="text-sm text-gray-600">Total Prescriptions</div>
           </div>
           <div className="text-center">

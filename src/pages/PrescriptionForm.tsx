@@ -53,6 +53,13 @@ const PrescriptionForm: React.FC = () => {
 
       // Encrypt the data
       const encryptedData = encryptData(prescriptionData);
+      await addDoc(
+        collection(db, 'prescriptions'), // <-- Specify the collection here
+        {
+          ...prescriptionData,
+          qrEncrypted: encryptedData
+        }
+      );
 
       // Prepare prescription document
       const prescription: Omit<Prescription, 'id'> = {
